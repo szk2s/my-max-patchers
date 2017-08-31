@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 626.0, 528.0 ],
+		"rect" : [ 34.0, 78.0, 1091.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -586,7 +586,7 @@
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 179.333374, 215.0, 100.0, 41.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -1127,24 +1127,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-49" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-34" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
-			"obj-46" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-47" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-84" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-74" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-21" : [ "live.dial", "live.dial", 0 ],
-			"obj-33" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-49" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-46" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-33" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-47" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-84" : [ "live.dial[1]", "live.dial", 0 ],
+			"obj-34" : [ "live.gain~[1]", "live.gain~[1]", 0 ]
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "multipleOfLoadbangs.maxpat",
-				"bootpath" : "~/Documents/Max 7/Library/max-user-library",
-				"patcherrelativepath" : "../Documents/Max 7/Library/max-user-library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
