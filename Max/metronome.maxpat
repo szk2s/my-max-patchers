@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 275.0, 590.0, 263.0, 155.0 ],
+		"rect" : [ 392.0, 590.0, 248.0, 151.0 ],
 		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -90,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 478.5, 91.0, 26.0 ],
+					"patching_rect" : [ 305.0, 562.5, 91.0, 26.0 ],
 					"style" : "",
 					"text" : "Start Audio"
 				}
@@ -223,7 +223,7 @@
 							"parameter_mmin" : -70.0,
 							"parameter_mmax" : 6.0,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ -18 ],
+							"parameter_initial" : [ -24 ],
 							"parameter_unitstyle" : 4
 						}
 

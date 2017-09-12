@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 616.0, 576.0, 611.0, 180.0 ],
+		"rect" : [ 625.0, 578.0, 611.0, 180.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,20 @@
 		"style" : "",
 		"subpatcher_template" : "userdefault",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 212.0, 291.0, 80.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 356.0, 98.0, 80.0, 21.0 ],
+					"style" : "",
+					"text" : "MIDI Channel"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "number",
@@ -1918,7 +1932,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 594.0, 780.0, 40.0, 22.0 ],
 									"style" : "",
-									"text" : "100"
+									"text" : "127"
 								}
 
 							}
@@ -2464,6 +2478,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 212.0, 316.0, 50.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 356.0, 121.0, 50.0, 23.0 ],
 					"style" : ""
 				}
 
