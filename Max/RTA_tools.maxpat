@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 684.0, 785.0 ],
+		"rect" : [ 34.0, 78.0, 593.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -538,7 +538,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1119.CMlaKA....fQPMDZ....APicuYC...P.....CPTYlEVcrQG..............................PvH.....................DFbxMGSW...jAPdAfGmEi0RuMMPPXGZCMPozRUKhRKkRQh2NPogTdHQLR7TBpPEwO.2jsIVX6030ogVtvANf3G.fDh27GfibCNwUjPhybji7K.wrwdMqeswVBWrjkmY82L67syrOr2ljjTkUwUO6EQqn1V2YFPeH3d40rTIDYjo5x5nyAMLIbq1tgFtrAtwMT0LKG.RA30zaIumLY5UI3toMtsEAoWEj2YDWwdqHuPiJMShipYcjropA5pwFUAfTfyOwcOCSXbpywxVp1pFD2voqCHeAdw9i1IwAMryKERetMwobx93TlueNkJE4TN0l4TpN.mxB7t+zLEZWP8L0gT+PMe.uXYznbTyr48nCC8hf.tvolRRIc8qZAeJoD7YI+m6NPDoYJWukpoIR2c7rCzMGRPjEFe3w+QBoec9w+kXi+zmWaQ+LfqpeNvU0OK3p5mGbU8yDtpmdKATOyV8T6uq5bmXvf5yssf5mbnf5yu8f5UFNn9oFIndUltnRAZHRiKZrP6eZeR6mg8F1FKbhAJBbfhf0g1mUbJwCYxkKQJKR8UvBXCBHoYS5UALCW5KfS+UvkM.lyn+8kDurAGz7XjZx.wEoEtirptNa5B4ZvqOrfnKhAhVWlVuX.1K2QyrAXGQaczkg1lNRGDFUXutIlKe8icY7OVUYBp2wMt0Muvhkao0.IafbP1DYXQdGxUfWdvncSRvEwhw45GHuz0LYm0rPOM1LYrP48YoP9OOj4GaHVn5xZFVXaG45Xcr8yKHZrIB7vwdQovWgqFYKiOhRwHXRCV16RC1RY.6HY.6XY.6tx.1o5IV5Lz.Ii1lMP15pqI2cC2WHE2LTAFrQW6s2PwuicaC1xGpq1zQy.8F.hrPNDiQB3gRdHOq.drrNt9c5tR06ATmH0T4u1kLaFSIOjEkUZnQnGTOaYEOi1nqtlR.OVQSW+kv6ORpIA0hjYvupkGx6SDCrQ2UtkVyVuC.c7zSClYIxkG8Mk7PdldwEcbm2BXJmMp.VkbVohRdHKJq.s69QiSUHKYEeyXbgcFN9uOidF7aSP1ru.gdNbuO3tunM0ezlJFsoMGsoAh1TonMwGnr.pOt.k9j0e7cBiXSKXPDuxJDjy0ADGK0ift1H5vYhVVCuJcWPqrsrlmQIW98iZ4grnMarUMah5N8Naa17W6hiMK86ybo0W3icihu9vmHWaOe5elrnIStQELCOaKw4aVbb4Ye+.+bvx637T4QG7yeP4AyT6ekrHtPP0c+GWYiK9lsQu4onYKPPQ+RkrMawynj4QIk7PdOh3gN1B8J.vQSOKnljLGFUIOjEVWYfwNszLalw5JlYaz0UhNTFs9HaGJ6+wGLS+cWV1HX2lt6XS2lZhHALG.9cJCeGyFp+A.BDdMZ"
+							"blob" : "1088.CMlaKA....fQPMDZ....APicuYC...P.....CPTYlEVcrQG..............................P.A.....................DFbxM2SW...mAPgAfGmEiUytQMLP3z+nKzVZUUKhR+kxA9MK8eJvgMHg.pToBAOAo65taDIwg3rcokKfDGPbhSvADf3mW.dCfSbEIdA3QnOBLdSbpSbhaxgrDonLi82Ld97L1NICpnnrxt30twsQ6n2zzaNPeH3d68bzIDUjs91lnaBMLIbq2rlAtrEt180MrKGARWP2zakfmLY5UI3ttKtoCAYtFHeJAWw5UlWnQkgMwS2tJR0V2BcuDipHP5hyOIcOGSXbpywpN5t5VD+vosCH+B53bhCRRPi67RwzWraNkk5gSY4d4TVoONkUOFmxZ8yobMd2uNSgNDTOScH0OTy6OHVFUjiF10eJcZ3nHHfKdpojRZWGTI5SEsnOKE97LQhHCa0pMzssQl9ymsfg4BRhr33iO+ORL8M4m+eHa9m9bisBy.9pg4.e0vrfuZXdvWMLS3qt9wind8SDn1aa0EWXfn5KNXT8kFJp9xmLp9JCGUe0QhpuFSWVo.MDowEMVniOcLoiyvASaiEOw.EAdPQv9P6yKOkDfL8xEgxhLeEs.1h.RFtjip.lgK6EvY+J51F.yYz+YJx21fCZQLSMYj3hz.2RU2zjsbgrAz8EkDcBFHaeYZ8hEXuZKC6ZfcDi8Q2AZaFgAHNp3dsalKeyq8Y7BuPaBp2w0dzCt0VkaXTCoZg7PtDUXSdOxcgNOu3vjFbYrXbtwAxKsMS0aOGz6RLSlHTdeVJl+KBY94FhCpppgkC10SsJ1D699tjM2H.Odr2mR7q3UirswGQqOALYAKqurfsTNvNRNvNVNvd5bfcpiDKcEZjjQS6ZHWS88Taef6GTRZEpDC5z0dyFK98baZw19Pe25dFVnOCPTkxgDLRBOzJB44kvisMwUeb6cp9FfZgLSkCsKc1LlVQHKKqTyfPeQ87kUBLpSWcMkDdrigo4Gg9uTlIA0hzYvAUJB4yJiAtnmn1vndiuBftZ1oAyrT4xq9iVQHO2QwESbqu.XJmOp.VkdVYEshPVVVAZ2+iFmsq7jUBMiwE16vw+8Yz26N3Cr6VrodDapWwl5SroiI1T+hMURrI9XkEPrnfMzrwiePXbaFIyi3c1gf71DPbkLOI5air2OS1Na3coGD5juc1BLJ8Jv+VoHjkcdiqtccT6U3467lCsKI176W9V0JS+iJEgrr0S9QErHOe6xEZVRbYzA9420d9bUJBYYbgfp5+atxGWBMqSe9orUKPPQ+Xk7sZIvnz4QIshPdZY7vD6f9D.3xYmETSRmCipUDxRqqrvXuFF10yYcEyrNcckr2KiVeju2K6+w2LS+iWNtH3zl1GZSOlZBg.lC.+IkwuS3.0+YuxWSH"
 						}
 ,
 						"snapshotlist" : 						{
@@ -560,7 +560,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1119.CMlaKA....fQPMDZ....APicuYC...P.....CPTYlEVcrQG..............................PvH.....................DFbxMGSW...jAPdAfGmEi0RuMMPPXGZCMPozRUKhRKkRQh2NPogTdHQLR7TBpPEwO.2jsIVX6030ogVtvANf3G.fDh27GfibCNwUjPhybji7K.wrwdMqeswVBWrjkmY82L67syrOr2ljjTkUwUO6EQqn1V2YFPeH3d40rTIDYjo5x5nyAMLIbq1tgFtrAtwMT0LKG.RA30zaIumLY5UI3toMtsEAoWEj2YDWwdqHuPiJMShipYcjropA5pwFUAfTfyOwcOCSXbpywxVp1pFD2voqCHeAdw9i1IwAMryKERetMwobx93TlueNkJE4TN0l4TpN.mxB7t+zLEZWP8L0gT+PMe.uXYznbTyr48nCC8hf.tvolRRIc8qZAeJoD7YI+m6NPDoYJWukpoIR2c7rCzMGRPjEFe3w+QBoec9w+kXi+zmWaQ+LfqpeNvU0OK3p5mGbU8yDtpmdKATOyV8T6uq5bmXvf5yssf5mbnf5yu8f5UFNn9oFIndUltnRAZHRiKZrP6eZeR6mg8F1FKbhAJBbfhf0g1mUbJwCYxkKQJKR8UvBXCBHoYS5UALCW5KfS+UvkM.lyn+8kDurAGz7XjZx.wEoEtirptNa5B4ZvqOrfnKhAhVWlVuX.1K2QyrAXGQaczkg1lNRGDFUXutIlKe8icY7OVUYBp2wMt0Muvhkao0.IafbP1DYXQdGxUfWdvncSRvEwhw45GHuz0LYm0rPOM1LYrP48YoP9OOj4GaHVn5xZFVXaG45Xcr8yKHZrIB7vwdQovWgqFYKiOhRwHXRCV16RC1RY.6HY.6XY.6tx.1o5IV5Lz.Ii1lMP15pqI2cC2WHE2LTAFrQW6s2PwuicaC1xGpq1zQy.8F.hrPNDiQB3gRdHOq.drrNt9c5tR06ATmH0T4u1kLaFSIOjEkUZnQnGTOaYEOi1nqtlR.OVQSW+kv6ORpIA0hjYvupkGx6SDCrQ2UtkVyVuC.c7zSClYIxkG8Mk7PdldwEcbm2BXJmMp.VkbVohRdHKJq.s69QiSUHKYEeyXbgcFN9uOidF7aSP1ru.gdNbuO3tunM0ezlJFsoMGsoAh1TonMwGnr.pOt.k9j0e7cBiXSKXPDuxJDjy0ADGK0ift1H5vYhVVCuJcWPqrsrlmQIW98iZ4grnMarUMah5N8Naa17W6hiMK86ybo0W3icihu9vmHWaOe5elrnIStQELCOaKw4aVbb4Ye+.+bvx637T4QG7yeP4AyT6ekrHtPP0c+GWYiK9lsQu4onYKPPQ+RkrMawynj4QIk7PdOh3gN1B8J.vQSOKnljLGFUIOjEVWYfwNszLalw5JlYaz0UhNTFs9HaGJ6+wGLS+cWV1HX2lt6XS2lZhHALG.9cJCeGyFp+A.BDdMZ"
+										"blob" : "1088.CMlaKA....fQPMDZ....APicuYC...P.....CPTYlEVcrQG..............................P.A.....................DFbxM2SW...mAPgAfGmEiUytQMLP3z+nKzVZUUKhR+kxA9MK8eJvgMHg.pToBAOAo65taDIwg3rcokKfDGPbhSvADf3mW.dCfSbEIdA3QnOBLdSbpSbhaxgrDonLi82Ld97L1NICpnnrxt30twsQ6n2zzaNPeH3d68bzIDUjs91lnaBMLIbq2rlAtrEt180MrKGARWP2zakfmLY5UI3ttKtoCAYtFHeJAWw5UlWnQkgMwS2tJR0V2BcuDipHP5hyOIcOGSXbpywpN5t5VD+vosCH+B53bhCRRPi67RwzWraNkk5gSY4d4TVoONkUOFmxZ8yobMd2uNSgNDTOScH0OTy6OHVFUjiF10eJcZ3nHHfKdpojRZWGTI5SEsnOKE97LQhHCa0pMzssQl9ymsfg4BRhr33iO+ORL8M4m+eHa9m9bisBy.9pg4.e0vrfuZXdvWMLS3qt9wind8SDn1aa0EWXfn5KNXT8kFJp9xmLp9JCGUe0QhpuFSWVo.MDowEMVniOcLoiyvASaiEOw.EAdPQv9P6yKOkDfL8xEgxhLeEs.1h.RFtjip.lgK6EvY+J51F.yYz+YJx21fCZQLSMYj3hz.2RU2zjsbgrAz8EkDcBFHaeYZ8hEXuZKC6ZfcDi8Q2AZaFgAHNp3dsalKeyq8Y7BuPaBp2w0dzCt0VkaXTCoZg7PtDUXSdOxcgNOu3vjFbYrXbtwAxKsMS0aOGz6RLSlHTdeVJl+KBY94FhCpppgkC10SsJ1D699tjM2H.Odr2mR7q3UirswGQqOALYAKqurfsTNvNRNvNVNvd5bfcpiDKcEZjjQS6ZHWS88Taef6GTRZEpDC5z0dyFK98baZw19Pe25dFVnOCPTkxgDLRBOzJB44kvisMwUeb6cp9FfZgLSkCsKc1LlVQHKKqTyfPeQ87kUBLpSWcMkDdrigo4Gg9uTlIA0hzYvAUJB4yJiAtnmn1vndiuBftZ1oAyrT4xq9iVQHO2QwESbqu.XJmOp.VkdVYEshPVVVAZ2+iFmsq7jUBMiwE16vw+8Yz26N3Cr6VrodDapWwl5SroiI1T+hMURrI9XkEPrnfMzrwiePXbaFIyi3c1gf71DPbkLOI5air2OS1Na3coGD5juc1BLJ8Jv+VoHjkcdiqtccT6U3467lCsKI176W9V0JS+iJEgrr0S9QErHOe6xEZVRbYzA9420d9bUJBYYbgfp5+atxGWBMqSe9orUKPPQ+Xk7sZIvnz4QIshPdZY7vD6f9D.3xYmETSRmCipUDxRqqrvXuFF10yYcEyrNcckr2KiVeju2K6+w2LS+iWNtH3zl1GZSOlZBg.lC.+IkwuS3.0+YuxWSH"
 									}
 ,
 									"fileref" : 									{
@@ -818,7 +818,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1089.CMlaKA....fQPMDZ....APicuYC...P.....CPTYlEVcrQG..............................PPA.....................DFbxM2SW...mAPgAfGmEi0RtQMPPTmOCYfjPhhRPDxWBK3qC4yjP.VLFIDPjBQH3D3LSmYrv1swsm7iMrfEvE.Vf.Det.bCfUvRj3BvQHGApdram1ts6XuvCVxxU08qptdcUc21d.EEkJ6fW8V2EssdKSuYA8Ag6s12QmPTQ15aYhtMzvDvsdq5F34sv0entg87QfzEzM8VI3ISldUFta3ha4PPlqBxmQvUrdk4EZTYXS7zsqgTs0sPOHwnJBjt37SR2yxDFi5brpitqtEwObZ6.xOgNtf3fjDz3NubL8E6lSYod3TVtWNkJk3TV4DbJq1GmxM3c+ZLE5PP8L0gT+PMuufXYDQNZX2XO5zvwQP.W7TSYkztNrZzmJZQeVN744hDQF1p0ZpaaiL8mO2EFlKIIxhiO97+vwz2fe9+wr4e5y02LLC3qFlC7UCyB9pg4Ae0vLgu5ZmLh5MOUfZusUWbg9ipu3.Q0WZvn5Ke5n5UFJp9JCGUeUltrRAZHRiKZrPGe5XRGmgBl1FMdhAJB7fhfCf1mSdJI.Y5kKBkEY9JZArEAjLbIGWALCW1Kfy9UzsM.lyn+yUjusAGzhXlZhHwEoIdWUcSS1xEx5P2WVRzIXfr8ko0KVf8p6ZXWGriXb.5dPaSKL.wQE2qcyb4udsOiObOswodGW+IO5NaNeSi5HUKjGxknBax6QtOz4EEGlzfKiEiwMNPdosYpd66fdahYxDgx6yxw7eQHyO2PbP0TMrbvtdp0vlX220kr4FA3wi8RJwuhWMx1FeXsRBXxBVVeYAa4bfc3bfczbf8r4.6jGKV5JzHIiV10Qtl56q19.22qjzJTIFzoq8lIV7641xhs8g9NM7LrPeBfnJkCIXjDdnUDxyIgGaYhq8z16T8U.0BYlJGYW5rYTshPVVVotAg9h54KqDXTmt5ZRI7XaCSyO.8ekLSBpEoyfCqVDxmWFCbQOSsoQileA.c8rSClYoxkW8GshPd1iiKl3c+LfY97QEvpzyJUzJBYYYEnc+OZbltxSVIzLFWXuCG+2mQeu6fOvtawl5QrodEapjXSmPro9DaprXS7wJKfXQAanYiG+fv31zRlGwauMA4sAf3ZYdRz2FYuelrc1v6POHzIe6rEXT5Uf+sZQHK67FWc6Fn1qvy24MGYWRr42u7MpUm56UKBYYqm7iJXQd91kKzrj3xH8+iuo8hYqVDxx3BAUy+2bkOtDZVm97SYqVffh9wJ4a0RfQoyixZEg7Tx3gI1A8Q.vUyNKnljNGFQqHjkVWYgwdMMrajy5JlYc55JYuWFs9HeuW1+iuYl9GubbQvoMsOzldL03BALG.9SJiemvAp+Cfe3isb"
+							"blob" : "1088.CMlaKA....fQPMDZ....APicuYC...P.....CPTYlEVcrQG..............................P.A.....................DFbxM2SW...mAPgAfGmEiUytQMLP3z+nKzVZUUKhR+kxA9MK8eJvgMHg.pToBAOAo65taDIwg3rcokKfDGPbhSvADf3mW.dCfSbEIdA3QnOBLdSbpSbhaxgrDonLi82Ld97L1NICpnnrxt30twsQ6n2zzaNPeH3d68bzIDUjs91lnaBMLIbq2rlAtrEt180MrKGARWP2zakfmLY5UI3ttKtoCAYtFHeJAWw5UlWnQkgMwS2tJR0V2BcuDipHP5hyOIcOGSXbpywpN5t5VD+vosCH+B53bhCRRPi67RwzWraNkk5gSY4d4TVoONkUOFmxZ8yobMd2uNSgNDTOScH0OTy6OHVFUjiF10eJcZ3nHHfKdpojRZWGTI5SEsnOKE97LQhHCa0pMzssQl9ymsfg4BRhr33iO+ORL8M4m+eHa9m9bisBy.9pg4.e0vrfuZXdvWMLS3qt9wind8SDn1aa0EWXfn5KNXT8kFJp9xmLp9JCGUe0QhpuFSWVo.MDowEMVniOcLoiyvASaiEOw.EAdPQv9P6yKOkDfL8xEgxhLeEs.1h.RFtjip.lgK6EvY+J51F.yYz+YJx21fCZQLSMYj3hz.2RU2zjsbgrAz8EkDcBFHaeYZ8hEXuZKC6ZfcDi8Q2AZaFgAHNp3dsalKeyq8Y7BuPaBp2w0dzCt0VkaXTCoZg7PtDUXSdOxcgNOu3vjFbYrXbtwAxKsMS0aOGz6RLSlHTdeVJl+KBY94FhCpppgkC10SsJ1D699tjM2H.Odr2mR7q3UirswGQqOALYAKqurfsTNvNRNvNVNvd5bfcpiDKcEZjjQS6ZHWS88Taef6GTRZEpDC5z0dyFK98baZw19Pe25dFVnOCPTkxgDLRBOzJB44kvisMwUeb6cp9FfZgLSkCsKc1LlVQHKKqTyfPeQ87kUBLpSWcMkDdrigo4Gg9uTlIA0hzYvAUJB4yJiAtnmn1vndiuBftZ1oAyrT4xq9iVQHO2QwESbqu.XJmOp.VkdVYEshPVVVAZ2+iFmsq7jUBMiwE16vw+8Yz26N3Cr6VrodDapWwl5SroiI1T+hMURrI9XkEPrnfMzrwiePXbaFIyi3c1gf71DPbkLOI5air2OS1Na3coGD5juc1BLJ8Jv+VoHjkcdiqtccT6U3467lCsKI176W9V0JS+iJEgrr0S9QErHOe6xEZVRbYzA9420d9bUJBYYbgfp5+atxGWBMqSe9orUKPPQ+Xk7sZIvnz4QIshPdZY7vD6f9D.3xYmETSRmCipUDxRqqrvXuFF10yYcEyrNcckr2KiVeju2K6+w2LS+iWNtH3zl1GZSOlZBg.lC.+IkwuS3.0+YuxWSH"
 						}
 ,
 						"snapshotlist" : 						{
@@ -840,7 +840,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1089.CMlaKA....fQPMDZ....APicuYC...P.....CPTYlEVcrQG..............................PPA.....................DFbxM2SW...mAPgAfGmEi0RtQMPPTmOCYfjPhhRPDxWBK3qC4yjP.VLFIDPjBQH3D3LSmYrv1swsm7iMrfEvE.Vf.Det.bCfUvRj3BvQHGApdram1ts6XuvCVxxU08qptdcUc21d.EEkJ6fW8V2EssdKSuYA8Ag6s12QmPTQ15aYhtMzvDvsdq5F34sv0entg87QfzEzM8VI3ISldUFta3ha4PPlqBxmQvUrdk4EZTYXS7zsqgTs0sPOHwnJBjt37SR2yxDFi5brpitqtEwObZ6.xOgNtf3fjDz3NubL8E6lSYod3TVtWNkJk3TV4DbJq1GmxM3c+ZLE5PP8L0gT+PMuufXYDQNZX2XO5zvwQP.W7TSYkztNrZzmJZQeVN744hDQF1p0ZpaaiL8mO2EFlKIIxhiO97+vwz2fe9+wr4e5y02LLC3qFlC7UCyB9pg4Ae0vLgu5ZmLh5MOUfZusUWbg9ipu3.Q0WZvn5Ke5n5UFJp9JCGUeUltrRAZHRiKZrPGe5XRGmgBl1FMdhAJB7fhfCf1mSdJI.Y5kKBkEY9JZArEAjLbIGWALCW1Kfy9UzsM.lyn+yUjusAGzhXlZhHwEoIdWUcSS1xEx5P2WVRzIXfr8ko0KVf8p6ZXWGriXb.5dPaSKL.wQE2qcyb4udsOiObOswodGW+IO5NaNeSi5HUKjGxknBax6QtOz4EEGlzfKiEiwMNPdosYpd66fdahYxDgx6yxw7eQHyO2PbP0TMrbvtdp0vlX220kr4FA3wi8RJwuhWMx1FeXsRBXxBVVeYAa4bfc3bfczbf8r4.6jGKV5JzHIiV10Qtl56q19.22qjzJTIFzoq8lIV7641xhs8g9NM7LrPeBfnJkCIXjDdnUDxyIgGaYhq8z16T8U.0BYlJGYW5rYTshPVVVotAg9h54KqDXTmt5ZRI7XaCSyO.8ekLSBpEoyfCqVDxmWFCbQOSsoQileA.c8rSClYoxkW8GshPd1iiKl3c+LfY97QEvpzyJUzJBYYYEnc+OZbltxSVIzLFWXuCG+2mQeu6fOvtawl5QrodEapjXSmPro9DaprXS7wJKfXQAanYiG+fv31zRlGwauMA4sAf3ZYdRz2FYuelrc1v6POHzIe6rEXT5Uf+sZQHK67FWc6Fn1qvy24MGYWRr42u7MpUm56UKBYYqm7iJXQd91kKzrj3xH8+iuo8hYqVDxx3BAUy+2bkOtDZVm97SYqVffh9wJ4a0RfQoyixZEg7Tx3gI1A8Q.vUyNKnljNGFQqHjkVWYgwdMMrajy5JlYc55JYuWFs9HeuW1+iuYl9GubbQvoMsOzldL03BALG.9SJiemvAp+Cfe3isb"
+										"blob" : "1088.CMlaKA....fQPMDZ....APicuYC...P.....CPTYlEVcrQG..............................P.A.....................DFbxM2SW...mAPgAfGmEiUytQMLP3z+nKzVZUUKhR+kxA9MK8eJvgMHg.pToBAOAo65taDIwg3rcokKfDGPbhSvADf3mW.dCfSbEIdA3QnOBLdSbpSbhaxgrDonLi82Ld97L1NICpnnrxt30twsQ6n2zzaNPeH3d68bzIDUjs91lnaBMLIbq2rlAtrEt180MrKGARWP2zakfmLY5UI3ttKtoCAYtFHeJAWw5UlWnQkgMwS2tJR0V2BcuDipHP5hyOIcOGSXbpywpN5t5VD+vosCH+B53bhCRRPi67RwzWraNkk5gSY4d4TVoONkUOFmxZ8yobMd2uNSgNDTOScH0OTy6OHVFUjiF10eJcZ3nHHfKdpojRZWGTI5SEsnOKE97LQhHCa0pMzssQl9ymsfg4BRhr33iO+ORL8M4m+eHa9m9bisBy.9pg4.e0vrfuZXdvWMLS3qt9wind8SDn1aa0EWXfn5KNXT8kFJp9xmLp9JCGUe0QhpuFSWVo.MDowEMVniOcLoiyvASaiEOw.EAdPQv9P6yKOkDfL8xEgxhLeEs.1h.RFtjip.lgK6EvY+J51F.yYz+YJx21fCZQLSMYj3hz.2RU2zjsbgrAz8EkDcBFHaeYZ8hEXuZKC6ZfcDi8Q2AZaFgAHNp3dsalKeyq8Y7BuPaBp2w0dzCt0VkaXTCoZg7PtDUXSdOxcgNOu3vjFbYrXbtwAxKsMS0aOGz6RLSlHTdeVJl+KBY94FhCpppgkC10SsJ1D699tjM2H.Odr2mR7q3UirswGQqOALYAKqurfsTNvNRNvNVNvd5bfcpiDKcEZjjQS6ZHWS88Taef6GTRZEpDC5z0dyFK98baZw19Pe25dFVnOCPTkxgDLRBOzJB44kvisMwUeb6cp9FfZgLSkCsKc1LlVQHKKqTyfPeQ87kUBLpSWcMkDdrigo4Gg9uTlIA0hzYvAUJB4yJiAtnmn1vndiuBftZ1oAyrT4xq9iVQHO2QwESbqu.XJmOp.VkdVYEshPVVVAZ2+iFmsq7jUBMiwE16vw+8Yz26N3Cr6VrodDapWwl5SroiI1T+hMURrI9XkEPrnfMzrwiePXbaFIyi3c1gf71DPbkLOI5air2OS1Na3coGD5juc1BLJ8Jv+VoHjkcdiqtccT6U3467lCsKI176W9V0JS+iJEgrr0S9QErHOe6xEZVRbYzA9420d9bUJBYYbgfp5+atxGWBMqSe9orUKPPQ+Xk7sZIvnz4QIshPdZY7vD6f9D.3xYmETSRmCipUDxRqqrvXuFF10yYcEyrNcckr2KiVeju2K6+w2LS+iWNtH3zl1GZSOlZBg.lC.+IkwuS3.0+YuxWSH"
 									}
 ,
 									"fileref" : 									{
@@ -921,7 +921,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1505,7 +1505,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1823,7 +1823,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2527,7 +2527,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "Voxengo SPAN.maxsnap",
 				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 7/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}

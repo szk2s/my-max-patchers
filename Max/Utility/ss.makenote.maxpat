@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 288.0, 79.0, 591.0, 787.0 ],
+		"rect" : [ 2046.0, -210.0, 591.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -262,14 +262,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 467.0, 575.0, 55.0, 22.0 ],
+					"patching_rect" : [ 467.0, 575.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "length",
+						"filename" : "length.js",
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "js length"
+					"text" : "js length.js"
 				}
 
 			}
@@ -424,7 +424,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 77.624268, 328.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "83"
+					"text" : "60"
 				}
 
 			}
