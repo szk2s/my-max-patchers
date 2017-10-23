@@ -55,10 +55,28 @@ function indexOf(v){
 }
 
 function remove_duplicate(){
-	var b = array.filter(function (x, i, self) {
+	var tmp = array.filter(function (x, i, self) {
 				return self.indexOf(x) === i;
 			});
-	array = b;
+	array = tmp;
+}
+
+function remove_one(v){
+	for(i=0; i<array.length; i++){
+	    if(array[i] == v){
+	        array.splice(i, 1);	
+			return;
+	    }
+	}		
+}
+
+function remove(v){
+	for(i=0; i<array.length; i++){
+	    if(array[i] == v){
+	        array.splice(i, 1);
+			i--;
+	    }
+	}
 }
 
 
