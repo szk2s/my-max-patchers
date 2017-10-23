@@ -54,4 +54,11 @@ function indexOf(v){
 	outlet(0, array.indexOf(v));
 }
 
+function remove_duplicate(){
+	var b = array.filter(function (x, i, self) {
+				return self.indexOf(x) === i;
+			});
+	array = b;
+}
+
 
