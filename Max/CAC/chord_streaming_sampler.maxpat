@@ -38,6 +38,48 @@
 		"subpatcher_template" : "userdefault",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 533.0, 2.0, 122.0, 23.0 ],
+					"style" : "",
+					"text" : "r chord_list_file_name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 533.0, 32.0, 73.0, 23.0 ],
+					"style" : "",
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 533.0, 67.0, 441.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 29.0, 109.5, 526.0, 35.0 ],
+					"style" : "",
+					"text" : "Macintosh HD:/Users/satoshisuzuki/Google Drive/Orchestra Work Submission/max_patchers/attracter/Chord-List/forest_and_birds_chord_list.json"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1677,11 +1719,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 470.857178, 116.5, 116.0, 25.0 ],
+					"patching_rect" : [ 470.857178, 116.5, 132.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 73.5, 116.0, 25.0 ],
+					"presentation_rect" : [ 73.0, 73.5, 132.0, 25.0 ],
 					"style" : "",
-					"text" : "add to chord_llist"
+					"text" : "add to chord_llist (a)"
 				}
 
 			}
@@ -1741,7 +1783,7 @@
 					"patching_rect" : [ 23.000011, 216.0, 526.0, 264.833344 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 121.0, 526.0, 264.833344 ],
+					"presentation_rect" : [ 29.0, 152.0, 526.0, 264.833344 ],
 					"stafflines" : [ 5 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"versionnumber" : 7900,
@@ -1799,6 +1841,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -1917,8 +1973,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-88" : [ "live.button[2]", "live.button", 0 ],
-			"obj-21" : [ "live.button", "live.button", 0 ]
+			"obj-21" : [ "live.button", "live.button", 0 ],
+			"obj-88" : [ "live.button[2]", "live.button", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
