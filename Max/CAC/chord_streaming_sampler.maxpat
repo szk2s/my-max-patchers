@@ -110,7 +110,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "(500)", "", "(1500)" ],
+					"outlettype" : [ "", "(500)", "", "(1500)" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -149,6 +149,32 @@
 						"style" : "",
 						"subpatcher_template" : "userdefault",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 595.0, 37.0, 22.0 ],
+									"style" : "",
+									"text" : "clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 50.0, 477.0, 60.0, 22.0 ],
+									"style" : "",
+									"text" : "route null"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-22",
 									"maxclass" : "newobj",
@@ -290,7 +316,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "bang", "(500)", "", "(1500)", "clear" ],
-									"patching_rect" : [ 50.0, 567.0, 129.0, 23.0 ],
+									"patching_rect" : [ 125.0, 627.0, 129.0, 22.0 ],
 									"style" : "",
 									"text" : "t b (500) l (1500) clear"
 								}
@@ -303,7 +329,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 529.0, 69.0, 23.0 ],
+									"patching_rect" : [ 125.0, 589.0, 69.0, 22.0 ],
 									"style" : "",
 									"text" : "bach.mc2n"
 								}
@@ -316,7 +342,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 497.0, 75.0, 23.0 ],
+									"patching_rect" : [ 125.0, 557.0, 75.0, 22.0 ],
 									"style" : "",
 									"text" : "bach.wrap 2"
 								}
@@ -329,7 +355,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 468.0, 41.0, 22.0 ],
+									"patching_rect" : [ 125.0, 528.0, 41.0, 22.0 ],
 									"style" : "",
 									"text" : "zl.sort"
 								}
@@ -403,7 +429,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 44.0, 650.0, 30.0, 30.0 ],
+									"patching_rect" : [ 119.0, 710.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -416,7 +442,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 77.0, 650.0, 30.0, 30.0 ],
+									"patching_rect" : [ 152.0, 710.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -429,7 +455,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 112.0, 650.0, 30.0, 30.0 ],
+									"patching_rect" : [ 187.0, 710.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -442,7 +468,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 147.0, 650.0, 30.0, 30.0 ],
+									"patching_rect" : [ 222.0, 710.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -548,6 +574,20 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
+									"source" : [ "obj-2", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -641,6 +681,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-58", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}

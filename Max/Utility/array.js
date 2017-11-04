@@ -10,7 +10,16 @@ if (jsarguments.length>1){
 
 
 function bang(){
-	outlet(0,array);
+	if(array.length>0){
+		outlet(0,array);
+	}else{
+		outlet(0,"null");
+	}
+}
+
+function print(){
+	post(array);
+	post();
 }
 
 function set(){
