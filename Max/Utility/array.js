@@ -88,4 +88,13 @@ function remove(v){
 	}
 }
 
+function replace_element(before, after) {
+	for (var i = 0;  i < array.length; i++) {
+		if(array[i] == before){
+			array.splice(i,1,after);
+		}
+	}
+}
+  
+
 
