@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 634.0, 227.0, 591.0, 411.0 ],
+		"rect" : [ 634.0, 227.0, 234.0, 411.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,20 @@
 		"subpatcher_template" : "userdefault",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "frequency",
+					"id" : "obj-1",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 298.0, 29.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "spectroscope~",
 					"numinlets" : 2,
@@ -54,7 +68,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -150,9 +164,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 92.0, 85.0, 21.0 ],
+					"patching_rect" : [ 34.0, 92.0, 79.0, 21.0 ],
 					"style" : "",
-					"text" : "loadmess 1000"
+					"text" : "loadmess 440"
 				}
 
 			}
@@ -171,7 +185,7 @@
 					"presentation_rect" : [ 20.0, 10.0, 72.0, 51.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial",
+							"parameter_longname" : "live.dial[3]",
 							"parameter_shortname" : "freq",
 							"parameter_type" : 0,
 							"parameter_mmin" : 20.0,
@@ -194,28 +208,35 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 34.0, 182.0, 70.0, 21.0 ],
+					"patching_rect" : [ 34.0, 182.0, 63.0, 21.0 ],
 					"style" : "",
-					"text" : "cycle~ 1000"
+					"text" : "cycle~ 440"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "toggle",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 27.0, 25.0, 25.0 ],
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 34.0, 29.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"source" : [ "obj-11", 0 ]
@@ -295,12 +316,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-8" : [ "live.dial", "freq", 0 ]
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
