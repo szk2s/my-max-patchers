@@ -113,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 38.0, 562.301514, 108.0, 23.0 ],
+					"patching_rect" : [ 38.0, 561.301514, 108.0, 23.0 ],
 					"style" : "",
 					"text" : "bach.portal @out n"
 				}
@@ -178,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 168.714279, 363.650726, 108.0, 23.0 ],
+					"patching_rect" : [ 168.714279, 362.650726, 108.0, 23.0 ],
 					"style" : "",
 					"text" : "bach.portal @out n"
 				}
