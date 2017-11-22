@@ -1,12 +1,13 @@
 inlets = 1;
 
-var numModules;
+var numPatchers;
 var outletObj;
 var positionX = 30;
-var positionY = 150;
+var positionY = 200;
 var inlets = new Array();
-var prepends = new Array();
+var generatedObjects = new Array();
 var objects = new Array();
+
 
 function delete_all(){
     // delete all objects that have been generated before
@@ -24,16 +25,16 @@ function delete_all(){
     }
 }
 
-function generate(val){
-	if(arguments.length){  
+function duplicate(val){
+	if(arguments.length){
 		var a = arguments[0];
         if(a<0) a = 0;
         
         delete_all();
 
-        numModules = a;
+        numPatchers = a;
             
-        if(numModules) {
+        if(numPatchers) {
             generateObj();
             connectObj();
         }
@@ -46,27 +47,27 @@ function generate(val){
 
 function generateObj(){
     //generate objects
-    outletObj = this.patcher.newdefault(positionX, positionY+200, "outlet");
+    inletObj = this.patcher.newdefault(positionX, positionY+100, "thru");
+    inletObj.varname = "generated" + objects.length;
+    objects.push(inletObj);
+    
+    outletObj = this.patcher.newdefault(positionX, positionY+300, "thru");
     outletObj.varname = "generated" + objects.length;
     objects.push(outletObj);
 
-    for (var i = 0; i < numModules; i++){
-        var inletObj = this.patcher.newdefault(positionX+i*150, positionY, "inlet");
-        inletObj.varname = "generated" + objects.length;
-        inlets.push(inletObj);
-        objects.push(inletObj);
+    for (var i = 0; i < numPatchers; i++){
         
-        var prependObj = this.patcher.newdefault(positionX+i*150, positionY+100, "prepend", "#"+(i+2));
-        prependObj.varname = "generated" + objects.length;
-        prepends.push(prependObj);
-        objects.push(prependObj);
+        var generatedObj = this.patcher.newdefault(positionX+i*150, positionY+200, jsarguments[1], numPatchers-i);
+        generatedObj.varname = "generated" + objects.length;
+        generatedObjects.push(generatedObj);
+        objects.push(generatedObj);
     }
 }
 
 function connectObj(){
     //connect objects
-    for (var i=0; i<inlets.length; i++){
-        this.patcher.connect(inlets[i], 0, prepends[i], 0);
-        this.patcher.connect(prepends[i], 0, outletObj, 0);
+    for (var i=0; i<generatedObjects.length; i++){
+        this.patcher.connect(inletObj, 0, generatedObjects[i], 0);
+        this.patcher.connect(generatedObjects[i], 0, outletObj, 0);
     }
 }
