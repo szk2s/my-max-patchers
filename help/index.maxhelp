@@ -211,15 +211,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "index.maxpat",
-				"bootpath" : "~/SoundLibrary/Github/Max-Library/Utility/index",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/SoundLibrary/Github/Max-Library/patchers/Utility/index",
+				"patcherrelativepath" : "../patchers/Utility/index",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generate-objects-for-index.js",
-				"bootpath" : "~/SoundLibrary/Github/Max-Library/Utility/index",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/SoundLibrary/Github/Max-Library/patchers/Utility/index",
+				"patcherrelativepath" : "../patchers/Utility/index",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
