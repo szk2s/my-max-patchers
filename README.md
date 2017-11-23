@@ -1,4 +1,4 @@
 # Max-Library
-My Max Patchers and for Composition and Sound Design.   
+Max Patchers and for Composition and Sound Design.   
 Some patchers need "Bach" Library.  
 (Bach can be installed to MAX via Package Manager)  
