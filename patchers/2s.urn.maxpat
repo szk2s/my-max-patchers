@@ -97,7 +97,7 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 102.5, 233.5, 44.0, 23.0 ],
 					"style" : "",
-					"text" : "urn 10"
+					"text" : "urn #1"
 				}
 
 			}
