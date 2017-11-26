@@ -38,27 +38,14 @@
 		"subpatcher_template" : "userdefault",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "message",
+					"id" : "obj-2",
+					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 500.0, 29.5, 23.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 37.0, 587.0, 42.0, 23.0 ],
 					"style" : "",
-					"text" : "-6."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 188.0, 17.0, 75.0, 23.0 ],
-					"style" : "",
-					"text" : "2s.loadbang"
+					"text" : "*~ 0.5"
 				}
 
 			}
@@ -90,7 +77,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 37.0, 552.0, 45.0, 54.0 ],
+					"patching_rect" : [ 37.0, 502.0, 45.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.0, 0.0, 45.0, 54.0 ],
 					"viewvisibility" : 1
@@ -110,7 +97,7 @@
 					"presentation_rect" : [ 1.0, 1.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "attack (ms)[1]",
+							"parameter_longname" : "attack (ms)[2]",
 							"parameter_shortname" : "attack",
 							"parameter_type" : 0,
 							"parameter_mmax" : 300.0,
@@ -138,7 +125,7 @@
 					"presentation_rect" : [ 47.0, 1.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "decay (ms)[1]",
+							"parameter_longname" : "decay (ms)[2]",
 							"parameter_shortname" : "decay",
 							"parameter_type" : 0,
 							"parameter_mmax" : 2000.0,
@@ -216,11 +203,11 @@
 				"box" : 				{
 					"comment" : "signal",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.0, 10.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -230,7 +217,7 @@
 				"box" : 				{
 					"comment" : "bang",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -244,7 +231,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -258,13 +245,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -306,6 +286,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 3 ],
 					"source" : [ "obj-21", 0 ]
 				}
@@ -327,13 +314,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-58", 1 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -341,12 +321,27 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
 			}
  ],
+		"parameters" : 		{
+			"obj-18" : [ "attack (ms)[2]", "attack", 0 ],
+			"obj-58::obj-49" : [ "Gain (dB)", "gain", 0 ],
+			"obj-21" : [ "decay (ms)[2]", "decay", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "live.gaindial.maxpat",
+				"bootpath" : "~/SoundLibrary/Github/2s-max-library/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

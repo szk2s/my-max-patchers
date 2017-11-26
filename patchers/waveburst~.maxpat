@@ -185,6 +185,7 @@
 				"box" : 				{
 					"fontsize" : 8.5,
 					"id" : "obj-24",
+					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -303,7 +304,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -316,7 +317,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -528,6 +529,32 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-6::obj-58::obj-49" : [ "Gain (dB)", "gain", 0 ],
+			"obj-4" : [ "live.text[1]", "live.text", 0 ],
+			"obj-2" : [ "live.menu", "live.menu", 0 ],
+			"obj-8" : [ "frequency (log)", "freq", 0 ],
+			"obj-6::obj-18" : [ "attack (ms)[2]", "attack", 0 ],
+			"obj-6::obj-21" : [ "decay (ms)[2]", "decay", 0 ],
+			"obj-24" : [ "live.numbox", "live.numbox", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "burst_envelope.maxpat",
+				"bootpath" : "~/SoundLibrary/Github/2s-max-library/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "live.gaindial.maxpat",
+				"bootpath" : "~/SoundLibrary/Github/2s-max-library/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
