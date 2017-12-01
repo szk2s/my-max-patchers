@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -183,75 +183,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 8.5,
-					"id" : "obj-24",
-					"ignoreclick" : 1,
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 271.0, 264.0, 68.0, 13.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 64.0, 39.0, 13.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.numbox",
-							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
-							"parameter_mmax" : 30000.0,
-							"parameter_initial" : [ 0 ],
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"varname" : "live.numbox"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 250.0, 188.0, 46.0, 23.0 ],
-					"style" : "",
-					"text" : "t 2. f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-17",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 250.0, 59.0, 50.0, 23.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 250.0, 221.0, 46.0, 23.0 ],
-					"style" : "",
-					"text" : "pow 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -264,7 +195,7 @@
 					"presentation_rect" : [ 1.0, 1.0, 93.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -304,7 +235,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -317,11 +248,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 665.0, 35.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -336,51 +267,30 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 250.0, 19.0, 44.0, 38.0 ],
+					"patching_rect" : [ 250.0, 19.0, 44.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 24.0, 44.0, 38.0 ],
+					"presentation_rect" : [ 1.0, 24.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "frequency (log)",
+							"parameter_longname" : "frequency",
 							"parameter_shortname" : "freq",
 							"parameter_type" : 0,
-							"parameter_mmin" : 5.0,
-							"parameter_mmax" : 14.5,
+							"parameter_mmin" : 20.0,
+							"parameter_mmax" : 20000.0,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ 9.224409 ],
-							"parameter_unitstyle" : 3
+							"parameter_initial" : [ 440 ],
+							"parameter_unitstyle" : 3,
+							"parameter_exponent" : 4.8
 						}
 
 					}
 ,
-					"shownumber" : 0,
 					"varname" : "live.dial"
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 1 ],
-					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-2", 0 ]
@@ -507,54 +417,12 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"order" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"order" : 1,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
-		"parameters" : 		{
-			"obj-6::obj-58::obj-49" : [ "Gain (dB)", "gain", 0 ],
-			"obj-4" : [ "live.text[1]", "live.text", 0 ],
-			"obj-2" : [ "live.menu", "live.menu", 0 ],
-			"obj-8" : [ "frequency (log)", "freq", 0 ],
-			"obj-6::obj-18" : [ "attack (ms)[2]", "attack", 0 ],
-			"obj-6::obj-21" : [ "decay (ms)[2]", "decay", 0 ],
-			"obj-24" : [ "live.numbox", "live.numbox", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "burst_envelope.maxpat",
-				"bootpath" : "~/SoundLibrary/Github/2s-max-library/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "live.gaindial.maxpat",
-				"bootpath" : "~/SoundLibrary/Github/2s-max-library/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

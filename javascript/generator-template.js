@@ -39,7 +39,7 @@ function generate(val){
         }
     }
     else {
-		post("generate function needs argument (int)");
+		error("generate function needs argument (int)");
 		post();
 	}
 }

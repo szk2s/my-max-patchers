@@ -1,0 +1,45 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u988007823",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"list" : [ "foo" ],
+					"int" : [ -32 ],
+					"dial" : [ 69.0 ],
+					"toggle" : [ 1.0 ],
+					"menu" : [ 2.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"list" : [ "foo", "bar" ],
+					"int" : [ 301 ],
+					"dial" : [ 127.0 ],
+					"toggle" : [ 0.0 ],
+					"menu" : [ 1.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"list" : [ "foo", "bar" ],
+					"int" : [ 671 ],
+					"dial" : [ 14.0 ],
+					"toggle" : [ 1.0 ],
+					"menu" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
