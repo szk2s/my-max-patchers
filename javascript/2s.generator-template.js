@@ -46,16 +46,7 @@ function generate(val){
 
 function generateObj(){
     //generate objects
-    outletObj = this.patcher.newdefault(positionX, positionY+200, "outlet");
-    outletObj.varname = "generated" + objects.length;
-    objects.push(outletObj);
-
     for (var i = 0; i < numModules; i++){
-        var inletObj = this.patcher.newdefault(positionX+i*150, positionY, "inlet");
-        inletObj.varname = "generated" + objects.length;
-        inlets.push(inletObj);
-        objects.push(inletObj);
-        
         var prependObj = this.patcher.newdefault(positionX+i*150, positionY+100, "prepend", i+1);
         prependObj.varname = "generated" + objects.length;
         prepends.push(prependObj);
@@ -65,8 +56,8 @@ function generateObj(){
 
 function connectObj(){
     //connect objects
-    for (var i=0; i<inlets.length; i++){
-        this.patcher.connect(inlets[i], 0, prepends[i], 0);
-        this.patcher.connect(prepends[i], 0, outletObj, 0);
+    for (var i=0; i<prepends.length; i++){
+        this.patcher.connect(this.patcher.getnamed("toPrepend"), 0, prepends[i], 0);
+        this.patcher.connect(prepends[i], 0, this.patcher.getnamed("fromPrepend"), 0);
     }
 }

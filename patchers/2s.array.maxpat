@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -40,7 +40,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -53,7 +53,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -70,14 +70,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.0, 82.0, 58.0, 23.0 ],
+					"patching_rect" : [ 61.0, 82.0, 73.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "array.js",
+						"filename" : "2s.array.js",
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "js array.js"
+					"text" : "js 2s.array.js"
 				}
 
 			}
@@ -97,15 +97,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "array.js",
-				"bootpath" : "~/SoundLibrary/Github/szk2s-max-library/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -72,7 +72,7 @@
 					"id" : "obj-58",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "live.gaindial.maxpat",
+					"name" : "2s.live.gaindial.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -203,11 +203,11 @@
 				"box" : 				{
 					"comment" : "signal",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 37.0, 10.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -217,7 +217,7 @@
 				"box" : 				{
 					"comment" : "bang",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -231,7 +231,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -327,21 +327,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-18" : [ "attack (ms)[2]", "attack", 0 ],
-			"obj-58::obj-49" : [ "Gain (dB)", "gain", 0 ],
-			"obj-21" : [ "decay (ms)[2]", "decay", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "live.gaindial.maxpat",
-				"bootpath" : "~/SoundLibrary/Github/2s-max-library/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

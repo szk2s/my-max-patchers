@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 855.0, 788.0 ],
+		"rect" : [ 34.0, 78.0, 385.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "userdefault",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 238.0, 430.0, 31.0, 23.0 ],
+					"style" : "",
+					"text" : "thru"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -167,12 +180,12 @@
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "burst_envelope.maxpat",
+					"name" : "2s.burst_envelope.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 34.0, 579.0, 222.0, 56.0 ],
+					"patching_rect" : [ 35.0, 579.0, 222.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 24.0, 140.0, 52.0 ],
 					"viewvisibility" : 1
@@ -200,7 +213,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 238.0, 49.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -211,6 +224,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -230,16 +250,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 247.5, 326.0, 246.5, 326.0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 149.5, 80.0, 246.5, 80.0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
