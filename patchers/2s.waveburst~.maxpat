@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x64",
+			"revision" : 5,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -219,7 +219,7 @@
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "burst_envelope.maxpat",
+					"name" : "2s.burst_envelope.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -394,24 +394,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 555.5, 574.5, 235.5, 574.5 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 674.5, 601.5, 235.5, 601.5 ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}
