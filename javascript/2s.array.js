@@ -1,97 +1,98 @@
-var array =[];
 
 inlets = 1;
 outlets = 1;
+var config;
 
 if (jsarguments.length>1){
-	var array = jsarguments;
-	array.shift();
+	config = new Global(jsarguments[1]);
+}else{
+	config = {};
 }
 
-
 function bang(){
-	if(array.length>0){
-		outlet(0,array);
+	if(config.array.length>0){
+		outlet(0,config.array);
 	}else{
-		outlet(0,"null");
+		error("null null");
+		error();
 	}
 }
 
 function print(){
-	post(array);
+	post(config.array);
 	post();
 }
 
 function set(){
-	array = arrayfromargs(arguments);
+	config.array = arrayfromargs(arguments);
 }
 
 function clear(){
-	array = [];
+	config.array = [];
 }
 
 function unshift(v){
-	array.unshift(v);
+	config.array.unshift(v);
 }
 
 function push(){
 	var arg = arrayfromargs(arguments);
-	Array.prototype.push.apply(array, arg);
+	Array.prototype.push.apply(config.array, arg);
 }
 
 function msg_int(n){
-	outlet(0,array[n]);
+	outlet(0, config.array[n]);
 }
 
 function get(n){
-	outlet(0,array[n]);
+	outlet(0, config.array[n]);
 }
 
 function length(){
-	outlet(0,array.length);
+	outlet(0, config.array.length);
 }
 
 function shift(){
-	array.shift();
+	config.array.shift();
 }
 
 function pop(){
-	array.pop();
+	config.array.pop();
 }
 
 function indexOf(v){
-	outlet(0, array.indexOf(v));
+	outlet(0, config.array.indexOf(v));
 }
 
 function remove_duplicate(){
-	var tmp = array.filter(function (x, i, self) {
+	var tmp = config.array.filter(function (x, i, self) {
 				return self.indexOf(x) === i;
 			});
-	array = tmp;
+	config.array = tmp;
 }
 
 function remove_one(v){
-	for(i=0; i<array.length; i++){
-	    if(array[i] == v){
-	        array.splice(i, 1);	
+	for(i=0; i<config.array.length; i++){
+	    if(config.array[i] == v){
+	        config.array.splice(i, 1);	
 			return;
 	    }
 	}		
 }
 
 function remove(v){
-	for(i=0; i<array.length; i++){
-	    if(array[i] == v){
-	        array.splice(i, 1);
+	for(i=0; i<config.array.length; i++){
+	    if(config.array[i] == v){
+	        config.array.splice(i, 1);
 			i--;
 	    }
 	}
 }
 
 function replace_element(before, after) {
-	for (var i = 0;  i < array.length; i++) {
-		if(array[i] == before){
-			array.splice(i,1,after);
+	for (var i = 0;  i < config.array.length; i++) {
+		if(config.array[i] == before){
+			config.array.splice(i,1,after);
 		}
 	}
 }
